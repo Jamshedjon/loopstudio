@@ -72,6 +72,54 @@ body {
 
 /* HEADER */
 
+.header {
+  background: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  padding-top: 6.4rem;
+  background-size: cover;
+}
+.header-container {
+}
+.container {
+}
+.header-top {
+  display: flex;
+  margin-bottom: 13rem;
+}
+.header-logo {
+  margin-right: 53.8rem;
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  color: var(--white-color);
+}
+.header-top__nav-click {
+  display: none;
+}
+.header-top__nav-icon {
+}
+.header-contant {
+}
+.header-content__title {
+  color: var(--white-color);
+  font-family: var(--secondary-font-family);
+  font-size: 7.2rem;
+  width: 57rem;
+  text-transform: uppercase;
+  line-height: 0.97;
+  border: 2px solid var(--white-color);
+  padding: 4rem;
+  box-sizing: content-box;
+  margin-bottom: 14.6rem;
+}
+
 /* MAIN */
 main {
   flex-grow: 1;
